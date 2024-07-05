@@ -2,7 +2,7 @@
 title: "Rackspace"
 description: "Support Technician"
 pubDate: "Jun 10 2024"
-heroImage: "/Images/rx2.png"
+heroImage: "/rx2.png"
 tags: ["IoT","Cloud"]
 ---
 

@@ -2,7 +2,7 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import HorizontalCard from "../components/HorizontalCard.astro";
 import { getCollection } from "astro:content";
-import createSlug from "../lib/createSlug"
+import createSlug from "../lib/createSlug";
 
 const posts = (await getCollection("blog")).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
@@ -27,7 +27,7 @@ const last_posts = posts.slice(0, );
   </div>
 
   <div>
-    <div class="text-3xl w-full font-bold mb-5 mt-10">Places I worked with</div>
+    <div class="text-3xl w-full font-bold mb-5 mt-10">Descriptions of what i Did there</div>
   </div>
 
   {
@@ -49,13 +49,13 @@ const last_posts = posts.slice(0, );
   
 <div>
   <div class="text-3xl w-full font-bold mb-2">
-
+      Places I worked with
   </div>
 </div>
 
 <HorizontalCard
   title="Rackspace"
-  img="/Images/rx2.png"
+  img="/rx2.png"
   desc="Support Technician."
   url="#"
   period="April 2024 - Today"
@@ -63,7 +63,7 @@ const last_posts = posts.slice(0, );
 <div class="divider my-0"></div>
 <HorizontalCard
   title="Intelite"
-  img="/Images/intelite.jpg"
+  img="/intelite.jpg"
   desc="Proposal Engineer."
   url="#"
   period="June 2023 - March 2024 "
@@ -71,7 +71,7 @@ const last_posts = posts.slice(0, );
 <div class="divider my-0"></div>
 <HorizontalCard
   title="Ingenieria Operativa"
-  img="/Images/iosa.png"
+  img="/iosa.png"
   desc="Service Engineer."
   url="#"
   period="November 2022 - June 2023"
@@ -79,7 +79,7 @@ const last_posts = posts.slice(0, );
 <div class="divider my-0"></div>
 <HorizontalCard
   title="Ambientes Tactiles"
-  img="/Images/control4.jpg"
+  img="/control4.jpg"
   desc="Programer."
   url="#"
   period="February 2020 - November 2022"

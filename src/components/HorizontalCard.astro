@@ -1,23 +1,30 @@
 ---
-const { title, img, desc, url, badge, tags, target = "_blank" } = Astro.props;
+const { title, img, desc, url, badge, period, tags, target = "_blank" } = Astro.props;
 import { Image } from "astro:assets";
 const tag_url = url.split("/").slice(0, -1).join("/") + "/tag";
 ---
 
 <div
-  class="rounded-lg bg-base-100 hover:shadow-xl transition ease-in-out hover:scale-[102%]"
+class="rounded-lg bg-base-100 hover:shadow-xl transition ease-in-out hover:scale-[102%]" 
 >
   <a href={url} target={target}>
-    <div class="hero-content flex-col md:flex-row">
+    <div class=" flex-col md:flex-row " style="    z-index: 0;
+                                                  display: flex;
+                                                  align-items: center;
+                                                  justify-content: center;
+                                                  max-width: 80rem;
+                                                  gap: 1rem;
+                                                  padding: 1rem;
+                                                  height: 10rem">
       {
         img && (
           <Image
             src={img}
-            width={750}
-            height={422}
+            width={150}
+            height={800}
             format="webp"
             alt={title}
-            class="max-w-full md:max-w-[13rem] rounded-lg"
+            class="max-w-full md:max-w-[13rem] rounded-lg  "
           />
         )
       }
@@ -26,7 +33,9 @@ const tag_url = url.split("/").slice(0, -1).join("/") + "/tag";
           {title}
           {badge && <div class="badge badge-secondary mx-2">{badge}</div>}
         </h1>
-        <p class="py-1 text-1xl">{desc}</p>
+        <p class="py-1 text-1xl">
+          {desc}
+        </p>
         <div class="card-actions justify-end">
           {
             tags &&
@@ -37,6 +46,9 @@ const tag_url = url.split("/").slice(0, -1).join("/") + "/tag";
               ))
           }
         </div>
+      </div>
+      <div class="border-black  grow w-full flex text-red-500 italic tracking-wide font-semibold text-xl">
+          {period}
       </div>
     </div>
   </a>

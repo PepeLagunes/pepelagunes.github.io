@@ -1,6 +1,6 @@
 ---
 title: "ATAV"
-description: "Pending"
+description: "Programer Partner"
 pubDate: "Sep 11 2020"
 heroImage: "/control4.jpg"
 ---

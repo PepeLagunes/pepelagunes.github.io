@@ -1,9 +1,8 @@
 ---
 title: "IOSA"
-description: "Pending"
+description: "Service Engineer"
 pubDate: "Sep 12 2021"
 heroImage: "/iosa.png"
-badge: "Demo badge"
 tags: ["rust","tokio"]
 ---
 

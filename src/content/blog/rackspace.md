@@ -23,3 +23,16 @@ Urgent issues are similar in that they can lead to production downtimes but are 
 Within standard requests, I handle password resets in Linux and Windows operating systems, either directly with root users or Active Directory domains or local servers. Since a client's infrastructure may include local administration services, mesh networks, or even super-server hosting environments, I need to manage a diverse range of configurations and services.
 
 Rackspace offers a variety of services to its dedicated customers, such as CDN, CloudFiles, CloudStorage, DNS, Snapshots, virtual server creation, and monitoring. I must be familiar with all these services to provide guidance and support to the customer and identify problems that may not have been mentioned by them. This means my customer service skills must focus on understanding that the client may not always be sure of what they are reporting.
+
+<div class="flex justify-around">               
+    <a href="https://www.rackspace.com/es-mx" target="_blank">
+        <button class="rounded-xl border-2 border-red-500 px-5 py-3 text-base mb-3 font-medium text-red-500 transition duration-200 hover:bg-red-600/5 active:bg-red-700/5">
+            Rackspace Page
+        </button> 
+    </a> 
+    <a href="/recom_rax.jpeg" download="recom_rax.jpeg">
+        <button class="rounded-xl border-2 border-red-500 px-5 py-3 text-base mb-3 font-medium text-red-500 transition duration-200 hover:bg-red-600/5 active:bg-red-700/5">
+            Recomendation from Rackspace   
+        </button>    
+    </a>                        
+ </div>

@@ -30,9 +30,9 @@ Rackspace offers a variety of services to its dedicated customers, such as CDN, 
             Rackspace Page
         </button> 
     </a> 
-    <a href="/recom_rax.jpeg" download="recom_rax.jpeg">
+    <a href="/recom_rax.jpeg" target="_blank">
         <button class="rounded-xl border-2 border-red-500 px-5 py-3 text-base mb-3 font-medium text-red-500 transition duration-200 hover:bg-red-600/5 active:bg-red-700/5">
             Recomendation from Rackspace   
         </button>    
-    </a>                        
+    </a>                      
  </div>
